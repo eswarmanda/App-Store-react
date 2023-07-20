@@ -1,0 +1,28 @@
+.img-ele {
+  height: 80px;
+}
+.app-card {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: Bree Serif;
+  list-style-type: none;
+}
+@media (max-width: 512px) {
+  .img-ele {
+    height: 40px;
+  }
+  .app-card {
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    font-size: 11px;
+  }
+}

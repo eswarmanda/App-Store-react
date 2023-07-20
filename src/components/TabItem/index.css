@@ -1,0 +1,21 @@
+.list-ele {
+  list-style-type: none;
+}
+.btn {
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: gray;
+  border-style: solid;
+  width: 80px;
+  color: gray;
+  font-weight: 600;
+  padding: 8px;
+}
+.active-tab {
+  color: #2563eb;
+  border-color: #2563eb;
+  border-bottom-width: 3px;
+  font-size: 14px;
+}
